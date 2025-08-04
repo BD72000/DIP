@@ -1,4 +1,4 @@
-img = imread("C:\Users\bhavy\Downloads\img.jpg");  
+img = imread("img.jpg");  
 
 [rows, cols, channels] = size(img);
 
@@ -18,4 +18,5 @@ figure;
 subplot(1,2,1); imshow(img); 
 title('Original RGB Image');
 subplot(1,2,2); imshow(gray_img); 
+
 title('Grayscale Image (RGB Average)');
