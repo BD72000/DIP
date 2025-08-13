@@ -1,4 +1,4 @@
-img=imread("C:\Users\bhavy\Downloads\img.jpg");
+img=imread("img.jpg");
 if size(img,3)==3
     img=rgb2gray(img);
 end
@@ -76,4 +76,5 @@ imshow(img6)
 subplot(4,2,7)
 imshow(img7)
 subplot(4,2,8)
+
 imshow(img8)
