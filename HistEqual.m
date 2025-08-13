@@ -1,4 +1,4 @@
-img = imread("C:\Users\bhavy\Downloads\img.jpg");
+img = imread("img.jpg");
 if size(img, 3) == 3
     img = rgb2gray(img);
 end
@@ -44,3 +44,4 @@ subplot(2,2,3)
 imshow(equl_img)
 subplot(2,2,4)
 imshow(img)
+
